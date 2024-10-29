@@ -20,8 +20,7 @@ The main logic for generating a random color is written in JavaScript.
 
 RandomColorGen() function generates a random RGB color using Math.random() and Math.floor().
 The color is applied to the <div> element, and the RGB value is displayed in the <h4> element.
-javascript
-Copy code
+
 function RandomColorGen() {
     let red = Math.floor(Math.random() * 255);
     let green = Math.floor(Math.random() * 255);
@@ -34,16 +33,13 @@ function RandomColorGen() {
 HTML Structure
 The page consists of an h4 element to display the RGB value, a button to trigger the color change, and a <div> where the background color is applied.
 
-html
-Copy code
 <h4>Generator A Random Color</h4>
 <button>Generate Color</button>
 <div>This is your new Color</div>
 CSS
 Basic styling for aligning and formatting the elements on the page.
 
-css
-Copy code
+
 body {
     text-align: center;
 }
@@ -54,8 +50,4 @@ div {
     border: 1px solid black;
     margin: auto;
 }
-Contributing
-If you'd like to contribute, feel free to fork the repository and submit a pull request with improvements or bug fixes.
 
-License
-This project is open source and available under the MIT License.
